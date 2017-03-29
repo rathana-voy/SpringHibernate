@@ -15,4 +15,5 @@ public interface UserDao extends Repository<User, Integer> {
     public List<User> findAll();
     public User findByUserId(int userId);
 
+
 }
